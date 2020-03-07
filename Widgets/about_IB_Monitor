@@ -1,0 +1,6 @@
+#About
+
+IB_Monitor is an automated monitoring program, meant to monitor active IB_INSYNC / IB API strategies, and aggregate data related to performance.
+The end goal is a web app, that could be accessed ANYWHERE, as long as the failsafe program is running on the root machine.
+Final product will likely be a Dash web application, enabling the program to be platform independent -- and allowing monitoring from ANY device.
+
