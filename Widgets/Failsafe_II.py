@@ -15,8 +15,9 @@ By: Zach Oakes
 
 Revision Notes:
 1.0.0 (03/05/2020) - Initial
-1.0.1 (03/05/2020) - Refactored, Added Recursive Cls Var, bm @ 4us
+1.0.1 (03/05/2020) - Refactored Initial Halt program, Added Recursive Cls Var, bm @ 4us
 2.0.1 (03/05/2020) - Begin Chg to MONITORING program
+2.0.2 (03/07/2020) - Completed initial draft of Run() mega method -- need to refactor into individual metric methods.
 
 """
 
