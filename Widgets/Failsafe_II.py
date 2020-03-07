@@ -8,8 +8,8 @@ Created on Thu Mar  5 08:27:58 2020
 @author: zoakes
 """
 """
-IBHalt: Command-Line & Spyder Program
-Program Version 2.0.1
+IBMonitor: Command-Line & Spyder Program
+Program Version 2.0.2
 By: Zach Oakes
 
 
@@ -120,6 +120,9 @@ class Failsafe:
                             #Need to append ONCE -- not each time it's at SL or PT  *****
                             self.trade_list.append(0)
                             self.log('Loss Added -- {instrument.symbol}')
+                            
+                        #UTILIZE PAST_IDS -- (see below, unrealized pnl)
+                        #Check if most recent open_pnl was +, and if now closed -- trade_list.append(1) 
                          
                     #This needs to add DIFFERENCE **** THIS IS WRONG (maybe use list, and subtract difference from elements?)
                     #self.agg_PNL += opl
